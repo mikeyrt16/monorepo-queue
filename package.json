@@ -1,5 +1,14 @@
 {
   "dependencies": {
     "octokit": "^1.7.1"
+  },
+  "name": "monorepo-queue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mikeyrt16/monorepo-queue.git",
+  "author": "Michael Thomas <mikeyrt16@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
   }
 }

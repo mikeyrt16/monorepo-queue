@@ -9,7 +9,13 @@ const test = async () => {
 
   console.log("Hello, %s", login)
 
-  await octokit.rest.mikeyrt16/{repo}/commits
+  const result = await octokit.rest.repos.addStatusCheckContexts({
+    owner: 'mikeyrt16',
+    repo: 'monorepo-queue'
+    branch
+  })
+
+ console.log('RESULT', result)
 }
 
 test()
