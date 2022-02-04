@@ -41,7 +41,7 @@ const test = async () => {
     owner: 'mikeyrt16',
     repo: 'monorepo-queue',
     name: 'BOOOOOBS',
-    head_sha: 'bc3e86a97430d9875150694ca1a1e636bc33aee6',
+    head_sha: '5b4dff213c0cf07d7ecd814cea94428d4bcba873',
     status: 'in_progress',
   })
 
