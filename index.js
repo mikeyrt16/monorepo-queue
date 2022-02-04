@@ -41,9 +41,11 @@ const test = async () => {
     owner: 'mikeyrt16',
     repo: 'monorepo-queue',
     name: 'BOOOOOBS',
-    head_sha: 'e1d51b0130e1b3b83a6ef9aff188633a8cf20154',
+    head_sha: '9fed6108e70eb5a79d9db89dfb89fdf146bc637c4',
     status: 'completed',
-    conclusion: 'failure'
+    conclusion: 'failure',
+    completed_at: '2021-02-02T00:00:01Z',
+    external_id: 'some_shit',
   })
 
   console.log('!!!!!!', blah)
